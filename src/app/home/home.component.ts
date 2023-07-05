@@ -5,6 +5,7 @@ import { HousingService } from '../housing.service';
 @Component({
   selector: 'app-home',
   template: `
+  
   <section class="container m-5">
     <form>
     <input type="text" placeholder="Filter by city" #filter>
